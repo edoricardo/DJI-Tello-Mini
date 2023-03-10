@@ -2,7 +2,7 @@ from djitellopy import Tello
 from time import sleep
 
 tello = Tello()
-tello.connect
+tello.connect()
 print(tello.get_battery())
 
 print("takeoff? y/n")
