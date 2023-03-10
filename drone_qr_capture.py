@@ -3,7 +3,7 @@ import cv2
 import pyzbar.pyzbar as pyzbar
 
 tello = Tello()
-tello.connect
+tello.connect()
 print(tello.get_battery())
 
 tello.streamon()
